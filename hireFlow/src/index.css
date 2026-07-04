@@ -1,0 +1,60 @@
+/* ===== HireFlow Design Tokens ===== */
+/* Import once globally (e.g. in index.css / App.js), before component stylesheets */
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Brand */
+  --primary: #155EEF;
+  --primary-dark: #0B3FA0;
+  --primary-light: #EFF4FF;
+  --accent: #00C9A7;
+  --accent-dark: #00A88A;
+
+  /* Surfaces */
+  --bg: #F6F8FB;
+  --surface: #FFFFFF;
+  --border-color: #E4E7EC;
+  --border-strong: #D0D5DD;
+
+  /* Text */
+  --text-color: #101828;
+  --secondry-text-color: #667085;
+  --text-muted: #98A2B3;
+  --white-bg: #FFFFFF;
+
+  /* Status */
+  --error: #F04438;
+  --success: #12B76A;
+
+  /* Elevation */
+  --shadow-sm: 0 1px 2px rgba(16, 24, 40, 0.06);
+  --shadow-md: 0 4px 14px rgba(16, 24, 40, 0.08);
+  --shadow-lg: 0 16px 40px rgba(16, 24, 40, 0.14);
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+
+  /* Type */
+  --font-display: 'Sora', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 0.15s;
+  --dur-base: 0.3s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-body);
+}
